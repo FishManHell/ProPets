@@ -24,6 +24,7 @@ const App = () => {
         return (
             <div className="sweet-loading">
                 <HashLoader color={"#669885"} size={400}/>
+                <div className={'test'}>test</div>
             </div>
         )
     } else {
