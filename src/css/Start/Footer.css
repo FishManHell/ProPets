@@ -1,0 +1,39 @@
+
+.logo_footer {
+    width: 200px;
+}
+
+.logo_footer img {
+    width: 100%;
+}
+
+.first_icon_footer {
+    padding-bottom: 18px;
+}
+
+.first_link_footer_text {
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.social {
+    font-size: 29px;
+    line-height: 60px;
+
+}
+
+footer {
+    padding: 60px 0 60px 0;
+}
+
+.logo_svg_footer {
+    width: 200px;
+    height: 47px;
+    fill: #FFFFFF;
+}
+
+.icon_footer, .icon_footer_text {
+    line-height: 19px;
+    color: #FFFFFF;
+}

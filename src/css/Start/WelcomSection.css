@@ -1,0 +1,120 @@
+.welcom_section {
+    position: relative;
+    background: #FFFFFF;
+    padding-bottom: 18px;
+    z-index: 0;
+}
+
+.aside_left {
+    position: inherit;
+}
+
+h1 {
+    margin: 0 0 50px 0;
+    font-size: 56px;
+    line-height: 68px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 span {
+    color: #84B6A3;
+}
+
+
+.search_img_block {
+    margin-top: 15px;
+    width: 79px;
+    height: 80px;
+}
+
+.search_img_block img {
+    width: 100%;
+}
+
+.aside_left {
+    padding-top: 80px;
+}
+
+.join_block span {
+    cursor: pointer;
+    line-height: 68px;
+}
+
+.findPets, .what_to_do {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.findPets {
+    width: 73%;
+    height: 93px;
+}
+
+.what_to_do {
+    width: 65%;
+    height: 93px;
+}
+
+.findPets button, .what_to_do button {
+    border-radius:inherit;
+    border: none;
+    height: inherit;
+}
+
+.what_to_do button{
+    width: 100%;
+    background-color: #84B6A3;
+}
+
+.findPets button {
+    width: 100%;
+    background-color: #FFE18B;
+}
+
+.findPets span, .what_to_do span {
+    color: #393939;
+    line-height: 68px;
+    font-size: 32px;
+}
+
+.what_to_do span {
+    color: #FFFFFF;
+}
+
+.findPets button:hover {
+    background-color: #ffd96a;
+}
+
+.what_to_do button:hover {
+    background-color: #669885;
+}
+
+.btn_wrap_yellow:hover:before {
+    background-color: #ffd96a;
+}
+
+.btn_wrap_green:hover:before {
+    background-color: #669885;
+}
+
+.btn_wrap_yellow:before, .btn_wrap_green:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: inherit;
+    left: 0;
+    width: calc((100% - 500px) / 2);
+    z-index: -1;
+}
+
+.btn_wrap_yellow:before{
+    content: '';
+    background-color: #FFE18B;
+}
+
+.btn_wrap_green:before {
+    content: '';
+    background: #84B6A3;
+}

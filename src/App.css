@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+html, body, #root {
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+    height: 20px
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#ffd96a;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(54, 56, 58);
+}
+
+.wrapper {
+    background-color:#669885;
+}
+
+input[placeholder] {
+    font-size: 12px;
+}
+
+.change_content_main {
+    display: contents;
+}
+
+.leaflet-container {
+    width: 380px;
+    height: 600px;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.wrapper_lost {
+    background-color: #FFFFFF;
+}
+
+.red_star {
+    color: red;
+}
+
+.menu_position, .poster_position {
+    position: sticky;
+    top: 0;
+}
+
+.my-anchor-css-class {
+    color: #669885;
+}
+
+.my-anchor-css-class:hover {
+    color: #7d0027;
+}
+
+.sweet-loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.loader_block {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-end-everywhere {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    -webkit-animation: pulsing 2s infinite;
+    animation: pulsing 2s infinite;
+    cursor: pointer;
+    color: #7d0027;
+}
+
+
+@-webkit-keyframes pulsing {
+    0% {
+        -webkit-transform: scale(0.5, 0.5);
+        transform: scale(0.5, 0.5)
+    }
+    50% {
+        -webkit-transform: scale(1.0, 1.0);
+        transform: scale(1.0, 1.0);
+    }
+    100% {
+        -webkit-transform: scale(0.5, 0.5);
+        transform: scale(0.5, 0.5);
+    }
+}
+
+@keyframes pulsing {
+    0% {
+        -webkit-transform: scale(0.9, 0.9);
+        transform: scale(1.1)
+    }
+    50% {
+        -webkit-transform: scale(0.9, 0.9);
+        transform: scale(1.0, 1.0);
+    }
+    100% {
+        -webkit-transform: scale(0.9, 0.9);
+        transform: scale(1.1);
+    }
+}
+
+.input_lost_found {
+    height: 30px;
+    border: 1px solid #8DBFAC;
+    border-radius: 15px;
+    outline:none;
+}
+
+.input_lost_found[placeholder] {
+    padding-left: 10px;
+    font-size: 0.8rem;
+}
+
+.input_bread {
+    width: 35%;
+}
+
+.map_lost_found {
+    padding-top: 32px;
+}

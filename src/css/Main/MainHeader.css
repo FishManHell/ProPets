@@ -1,0 +1,81 @@
+.header_main {
+    position: relative;
+    z-index: 4;
+    height: 70px;
+    box-shadow: 0 3px 6px #00000029;
+    background-color: #FFFFFF;
+}
+
+.logo_main_header {
+    fill:#669885;
+}
+
+.main_add_button {
+    width: 150px;
+    height: 34px;
+    border-radius: 17px;
+    background-color:#84B6A3;
+    border: 1px solid #84B6A3;
+}
+
+.yellow_button {
+    border: 1px solid #FFE18B;
+    background: #FFE18B;
+}
+
+.yellow_button span {
+    color: #000000;
+}
+
+.yellow_button:hover, .green_button:hover {
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+
+.plus_add, .lost_add, .found_add {
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 13px;
+}
+
+.text_add {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+
+.main_comment_block {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    max-width: 100%;
+    background: rgba(0,0,0, .2);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+.main_comment_block.open {
+    display: flex;
+}
+
+.main_comment_block.close {
+    display: none;
+}
+
+.comment_block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.plus_commit {
+    margin-left: 5px;
+}

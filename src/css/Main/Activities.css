@@ -1,0 +1,72 @@
+.wrapper_activities {
+    box-shadow: 0 3px 6px #00000029;
+    padding: 10px 0 21px 0;
+}
+
+.section_activities {
+    box-shadow: 0 3px 6px #00000029;
+    background-color: #F2EFFf;
+    padding: 15px 18px 13px 13px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.profile_post_inform {
+    margin-left: 21px;
+}
+
+.activities_head {
+    font-size: 22px;
+    color: #84B6A3;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.icon_activities_head button {
+    font-size: 18px;
+    line-height: 22px;
+    color: #BABABA;
+    background: transparent;
+    border: none;
+}
+
+.icon_activities_head button:hover {
+    color: #669885;
+    transform: scale(1.3);
+    transition: all 0.4s;
+}
+
+.icon_activities_head button:first-child {
+    margin-right: 10px;
+}
+
+.second_block p, .third_block p {
+    color:#84B6A3 ;
+}
+
+.second_block span, .third_block span {
+    color: #000000;
+}
+
+.distinctive_inform {
+    width: 167px;
+    margin-right: 10px;
+}
+
+.third_block {
+    margin-top: 15px;
+}
+
+.third_block span {
+    font-size: 12px;
+}
+
+.profile_post_img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.profile_post_img img {
+    width: 100%;
+}

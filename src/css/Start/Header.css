@@ -1,0 +1,40 @@
+.header_start {
+    height: 70px;
+}
+
+.nav_start div {
+    display: inline-block;
+    width: 112px;
+}
+
+.nav_start button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    width: 100%;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 17px;
+    background: transparent;
+}
+
+.nav_start button:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #FFE18B;
+    border: 1px solid #FFE18B;
+    transition: all 0.3s;
+}
+
+h6 span {
+    color: #84B6A3;
+    line-height: 68px;
+    text-decoration: underline;
+}
+
+.logo_svg_header {
+    width: 142px;
+    height:33px;
+    fill: #FFFFFF;
+}

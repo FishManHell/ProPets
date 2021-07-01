@@ -1,0 +1,146 @@
+
+.add_new_block_text{
+    border: 1px solid #84B6A3;
+    padding: 6px;
+    width: 100%;
+    font-size: 12px;
+    color: #BABABA;
+    resize: none;
+    overflow: hidden;
+    outline: none;
+}
+
+.add_new_text label{
+    text-align: right;
+    color: #393939;
+    font-size: 12px;
+}
+
+.add_new_text span {
+    text-align: right;
+    font-size: 10px;
+    color: #84B6A3;
+    line-height: 18px;
+}
+
+.block_button_dnd {
+    text-align: center;
+}
+
+.paragraph_dnd_button {
+    font-size: 12px;
+    padding: 7px 20px 15px 20px;
+    line-height: 12px;
+}
+
+.button_dnd {
+    width: 77px;
+    height: 30px;
+    border: 1px solid #8DBFAC;
+    border-radius: 15px;
+    background: transparent;
+    color: #8DBFAC;
+    font-size: 12px;
+}
+
+.button_dnd:hover {
+    background-color: #669885;
+    color: #FFFFFF;
+    transition: all 0.4s;
+}
+
+.name_profile_dnd {
+    text-align: left;
+    color: #84B6A3;
+    line-height: 19px;
+}
+
+.block_dnd {
+    padding:33px 0 36px 0;
+}
+
+.button_publish_dnd {
+    width: 148px;
+    height: 34px;
+    border-radius: 17px;
+    background: transparent;
+    border: 1px solid #84B6A3;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.button_publish_dnd span {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0 30px 0 13px;
+}
+
+.button_publish_dnd:hover {
+    background-color: #84B6A3;
+    transition: all 0.4s;
+    color: #FFFFFF;
+}
+
+.signOutAlt {
+    font-size: 30px;
+    line-height: 33px;
+    padding-bottom: 7px;
+    color: #84B6A3;
+}
+
+.head_add_new {
+    line-height: 19px;
+    color: #669885;
+    font-weight: 600;
+}
+
+.head_add_new span {
+    font-weight: bold;
+}
+
+.block_img_dnd {
+    width: 200px;
+    height: 111px;
+}
+
+.block_from_img_dnd {
+    width: 142px;
+    border: 1px solid #8DBFAC;
+    height: 111px;
+    padding: 5px;
+}
+
+.big_block {
+    width: 100%;
+    border: 1px solid green;
+}
+
+.small_block {
+    width: 53px;
+    height: 37px;
+    border: 1px solid green;
+}
+
+.big_block span, .small_block span {
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.big_block:hover, .small_block:hover {
+    opacity: 0.5;
+}
+
+.addNew_file_name_block {
+    width: 142px;
+}
+
+.label_small_block, .label_big_block {
+    background-color: #84B6A3;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.label_big_block {
+    width: 170px;
+}

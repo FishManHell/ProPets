@@ -1,0 +1,263 @@
+.logo_svg__modal {
+    width: 167px;
+    height: 40px;
+    fill: #669885;
+}
+
+.logo_svg__modal:focus {
+    fill: #ffd96a;
+}
+
+.modal__wrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    background: rgba(0,0,0, .2);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+}
+
+.modal__wrapper.open {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__wrapper.close{
+    height: 0;
+    display: none;
+}
+
+.modal__body {
+    width: 650px;
+    max-width: 100%;
+    margin: 5% auto auto auto;
+    background: #FFFFFF;
+    padding: 16px 15px 12px 12px;
+    border-radius:10px;
+}
+
+.modal__close {
+    border: 0;
+    color: #BABABA;
+    background: transparent;
+    text-align: right;
+    margin-top: -15px;
+    font-size: 30px;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+.link_facebook {
+    width: 210px;
+    height: 34px;
+    border-radius: 17px;
+    background-color: #4560A6;
+    border: 1px solid #4560A6;
+}
+
+.button_form {
+    border-top: 1px solid #84B6A3;
+}
+
+.sing_up, .sign_in {
+    width: 50%;
+    text-align: center;
+    border: 1px solid #84B6A3;
+    color: #FFFFFF;
+    background-color: #84B6A3;
+}
+
+.sing_up.active, .sign_in.active {
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.sing_up.not_active, .sign_in.not_active {
+    opacity: 0.28;
+}
+
+.form_block_up, .form_block_in {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #BABABA;
+}
+
+.form_block_up {
+    padding: 32px 0 40px 0;
+}
+
+.form_block_in {
+    padding: 45px 0 20px 0;
+}
+
+.cancel_model, .submit_model {
+    height: 37px;
+    border-radius: 17px;
+    border: 1px solid #8DBFAC;
+    background-color: transparent;
+}
+
+.cancel_model {
+    margin-right: 14px;
+    width: 105px;
+}
+
+.submit_model {
+    position: relative;
+    width: 150px;
+}
+
+.cancel_model:hover, .submit_model:hover {
+    transition: all 0.4s;
+    background-color: #84B6A3;
+    color: #FFFFFF;
+}
+
+.icon_found_modal {
+    color: #84B6A3;
+}
+
+.submit_model:hover .icon_found_modal {
+    transition: all 0.4s;
+    color: #FFFFFF;
+}
+
+.submit_model span {
+    position: absolute;
+    left: 10px;
+}
+
+.footer_modal {
+    display: flex;
+    align-items: center;
+}
+
+.footer_modal div:last-child {
+    display: flex;
+}
+
+.block_input input {
+    outline: none;
+    margin: 0 0 11px 0;
+    width: 205px;
+    height: 18px;
+    border: 0;
+    border-bottom: 1px solid #84B6A3;
+}
+
+.block_input {
+    margin-left: 17px;
+}
+
+.block_label {
+    text-align: end;
+    line-height: 18px;
+    font-size: 12px;
+
+}
+
+.inform_form p {
+    font-size: 10px;
+    line-height: 10px;
+    text-align: left;
+}
+
+.modal_welcome_block p {
+    line-height: 19px;
+    color: #669885;
+}
+
+.modal_welcome_block span {
+    font-weight: bolder;
+}
+
+.modal_section_welcom {
+    padding: 10px 0 14px 0;
+}
+
+.footer_modal {
+    padding-top: 14px;
+}
+
+.footer_modal p {
+    padding-right: 66px;
+    font-size: 10px;
+    color: #BABABA;
+    line-height: 15px;
+}
+
+.footer_modal a {
+    text-decoration: underline;
+    color: #BABABA;
+}
+
+.footer_modal a:hover {
+    color: #BABABA;
+}
+
+.block_forget {
+    padding-top: 50px;
+    padding-left: 85px;
+}
+
+.block_forget span {
+    text-decoration: underline;
+    font-size: 12px;
+    color: #393939;
+}
+
+.block_forget a:hover {
+    color: #393939;
+}
+.text_link_icon {
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.facebook_icon {
+    color: #fff;
+    font-size: 27px;
+    line-height: 32px;
+    margin: 3px 22px 3px 5px;
+}
+
+.error_email_sign_in,
+.error_password_sign_in,
+.error_name_sign_up,
+.error_email_sign_up,
+.error_password_sign_up,
+.error_re_password_sign_up{
+    position: absolute;
+    color: red;
+    font-size: 10px;
+}
+
+.error_email_sign_in {
+    top: 25%;
+}
+
+.error_password_sign_in {
+    top: 40%;
+}
+
+.error_name_sign_up {
+    top: 20%;
+}
+
+.error_email_sign_up {
+    top: 35%;
+}
+
+.error_password_sign_up {
+    top: 50%;
+}
+
+.error_re_password_sign_up {
+    top: 70%;
+}

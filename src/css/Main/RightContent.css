@@ -1,0 +1,12 @@
+.main_right_post_inform {
+    width: 100%;
+    padding-bottom: 13px;
+}
+
+.right_sidebar.active {
+    display: block;
+}
+
+.right_sidebar.not_active {
+    display: none;
+}

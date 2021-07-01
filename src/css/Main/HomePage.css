@@ -1,0 +1,65 @@
+.pages {
+    margin: 0 0 20px 0;
+}
+
+.page, .current-page {
+    border: 1px solid lightblue;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.current-page {
+    border: 2px solid gray;
+    font-weight: 700;
+}
+
+.invisible_button_to_top{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.button_scroll_Top {
+    padding: 0;
+    background: transparent;
+    border: navajowhite;
+    color: #7d0027;
+}
+
+.button_scroll_Top:hover {
+    color: #ffd96a;
+    transition: all 0.3s;
+    transform: scale(1.1);
+}
+
+.button_scroll_Top span {
+    margin-right: 13px;
+}
+
+
+
+.icon-main-inform_green {
+    color:#84B6A3;
+}
+
+.icon-main-inform_green:hover {
+    transform: scale(1.5);
+    transition: all 0.5s;
+    opacity: 0.7;
+}
+
+.icon-main-inform_star:hover {
+    transform: scale(1.5);
+    transition: all 0.5s;
+    color: #669885;
+}
+
+.margin_block {
+    margin: 32px 18px 29px 16px;
+}
+
+.not_margin {
+    margin: 0;
+}

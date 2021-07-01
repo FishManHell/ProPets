@@ -1,0 +1,128 @@
+.item_block {
+    margin-bottom: 10px;
+    height: 40px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.item_block:hover{
+    background-color: #FFFFFF;
+}
+
+.item_block:hover span {
+    color: #84B6A3;
+}
+
+.item_block:hover:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 20px;
+    height: inherit;
+    left: 0;
+    width: calc((100% - 800px) / 2);
+    z-index: -1;
+}
+
+.item_block a {
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+}
+
+.main_icon_item {
+    color: #FFFFFF;
+}
+
+ .icon_item{
+    color: #FFFFFF;
+
+    margin-right: 13px;
+}
+
+.main_icon_item, .icon_item, .logout_content {
+    background: transparent;
+}
+
+.nick_block {
+    margin: 60px 0;
+    padding: 21px 0;
+    border-top:1px solid #A2C7B9;
+    border-bottom: 1px solid #A2C7B9;
+}
+
+.profile_block {
+    margin-bottom: 55px;
+}
+
+.profile_block p{
+    width: 37px;
+    color: #FFFFFF;
+}
+
+.photo_profile_block {
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.exit_in_start {
+    margin-left: 10px;
+    background: transparent;
+}
+
+.photo_profile_block img {
+    width: 100%;
+    border-radius: inherit;
+}
+
+.logout_content {
+    color: #FFFFFF;
+}
+
+.invisible_main_menu.active_menu {
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    background-color: #000000;
+}
+
+.item_block.active_margin_bottom {
+    margin-bottom: 10px;
+}
+
+.item_block.not_active_margin_bottom {
+    margin-bottom: 0;
+}
+
+.invisible_main_menu.active_menu:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 152px;
+    padding: 20px;
+    background-color: #000000;
+    left: 0;
+    width: calc((100% - 800px) / 2);
+    z-index: -1;
+}
+
+.invisible_main_menu.not_active_menu {
+    display: none;
+}
+
+.left-sidebar {
+    z-index: 0;
+    position: static;
+}
+
+.invisible_main_menu a:hover  span{
+    color: #FFE18B;
+}
+
+.photo_profile_block img {
+    height: inherit;
+}

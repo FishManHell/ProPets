@@ -1,0 +1,50 @@
+.favorites_paragraph {
+    padding-top: 5px;
+    color: #669885;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.favorites_paragraph_span {
+    font-weight: 700;
+}
+
+.block_post_favorites {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, -10px);
+}
+
+.post_favorites_dont_have {
+    font-size: 50px;
+    font-weight: 800;
+    color: #669885;
+}
+
+.inform_pets_main {
+    position: relative;
+}
+
+.arrow_favorites {
+    background: transparent;
+    border: none;
+    font-size: 50px;
+    font-weight: 600;
+    color: #7d0027;
+}
+
+.post_favorites_text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.arrow_favorites:hover + .post_favorites_dont_have + .post_favorites_text {
+    transition: all 0.5s;
+    transform: scale(1.1);
+    color: #7d0027;
+}

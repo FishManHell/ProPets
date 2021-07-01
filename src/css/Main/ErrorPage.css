@@ -1,0 +1,56 @@
+.error_page {
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button_block_error_page {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button_block_error_page p {
+    font-size: 36px;
+    font-weight: 600;
+    color:#7d0027;
+}
+
+.button_block_error_page p:hover {
+    color: #ffd96a;
+}
+
+.button_block_error_page button{
+    background-color: transparent;
+    border: none;
+    font-size: 100px;
+    color: #75B29A;
+}
+
+.button_block_error_page button:hover {
+    color: #AB1A3B;
+    transform: scale(1.5);
+    transition: all 0.4s;
+}
+
+.block_text_error_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block_text_error_page span {
+    font-weight: 800;
+}
+
+.block_text_error_page span:first-child {
+    font-size: 100px;
+    color: #AB1A3B;
+}
+
+.block_text_error_page span:last-child {
+    font-size: 50px;
+}

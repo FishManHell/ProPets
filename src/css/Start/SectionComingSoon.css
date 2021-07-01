@@ -1,0 +1,37 @@
+.section_coming_son {
+    background-color: #FF6F61;
+}
+
+.heart_block {
+     position: relative;
+     width: 105px;
+ }
+
+.section_coming_son h2 {
+    font-size: 56px;
+    line-height: 68px;
+    color: #FFFFFF;
+}
+
+.heart_block span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 10px);
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 19px;
+    font-weight: 600;
+}
+
+.heart_block img {
+    width: 100%;
+}
+
+.coming_son_paragraph p {
+    color: #FFFFFF;
+    line-height: 19px;
+    font-weight: 600;
+    margin: 0;
+    text-align: left;
+}

@@ -1,0 +1,95 @@
+.inform_pets_main {
+    background-color: #FFFFFF;
+    padding: 20px 15px 11px 19px;
+    height: inherit;
+}
+
+.first_post, .second_post, .third_post {
+    padding: 12px 15px 14px 13px ;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 6px #00000029;
+}
+
+.post_block_name_hour span:first-child {
+    color: #84B6A3;
+    font-weight: 550;
+    line-height: 19px;
+}
+
+.data_home_post {
+    font-size: 12px;
+    color: #BABABA;
+    line-height: 15px;
+}
+
+.second_post, .third_post {
+    margin-top: 5px;
+}
+
+.photo_inform {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+}
+
+.img_log_info {
+    width: 100%;
+}
+
+.start_test {
+    border-style: solid;
+}
+
+.content-css {
+    padding-top: 13px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.content-css span {
+    display: inline-block;
+}
+
+.center_inform_main {
+    padding-left: 22px;
+    padding-right: 69px;
+    overflow-wrap: anywhere;
+}
+
+.img_block_inform {
+    padding-top: 14px;
+}
+
+.icon-main-inform {
+    background: transparent;
+    color: #BABABA;
+}
+
+.more_inform_main {
+    color: #84B6A3;
+    background: transparent;
+}
+
+.first_post, .second_post {
+    position: relative;
+}
+
+.invisible_window_main {
+    position: absolute;
+    padding: 18px 16px 16px 17px;
+    width: 169px;
+    height: 126px;
+    background: #75B29A;
+    top: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.point_Star_block {
+    z-index: 4;
+}
+
+.invisible_text, .invisible_icon {
+    font-size: 12px;
+}
