@@ -23,7 +23,7 @@ const App = () => {
     if (isLoading) {
         return (
             <div className="sweet-loading">
-                <HashLoader color={"#669885"} size={400}/>
+                <HashLoader color={"#669884"} size={400}/>
             </div>
         )
     } else {
